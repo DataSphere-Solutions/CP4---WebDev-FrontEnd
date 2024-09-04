@@ -4,7 +4,7 @@ export const NavStyle = styled.header `
 
 .nav{
     grid-area:nav;
-    background:#259DE1;
+    background:#19abff;
 }
 
 .nav .container{

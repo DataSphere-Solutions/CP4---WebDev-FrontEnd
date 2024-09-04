@@ -1,6 +1,9 @@
 import {useRef} from 'react'
 import Cliente from '../components/Cliente';
 
+import { LoginStyle } from "../css/LoginStyle";
+
+
 const Login =()=>{
 
     const usuario=useRef();
@@ -36,7 +39,7 @@ const Login =()=>{
                 <Cliente/>
             ):
                 <form onSubmit={handleLogin}>
-                    <p>
+                    <p className='p'>
                         Usuário:
                         <input type="text" placeholder="Digite seu usuário" ref={usuario} />
                     </p>
