@@ -1,8 +1,12 @@
-# React + Vite
+# CP4 - Front-End e Web Dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Data Sphere1000x1000](https://github.com/ianmonteirom/CP2-Edge/assets/152393807/0fe80a9b-6290-417d-8367-2abe3824d0b0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Grupo Data Sphere
+Nosso grupo é composto pelo integrantes:
+Artur Alves - RM 555171
+Giuliana Lucas - RM 557597
+Ian Monteiro - RM 558652
+Igor Brunelli - RM 555035
+Matheus Alcântara - RM 558193
