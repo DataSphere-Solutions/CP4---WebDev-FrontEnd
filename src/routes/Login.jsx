@@ -5,7 +5,7 @@ import Cliente from '../components/Cliente';
 const Login = () => {
     const usuario = useRef();
     const senha = useRef();
-     
+
     const getUsuario = sessionStorage.getItem("usuario");
     const getSenha = sessionStorage.getItem("senha");
 
@@ -24,7 +24,7 @@ const Login = () => {
 
     return (
         <>
-            <LoginStyle> 
+            <LoginStyle>
                 {getUsuario && getSenha ? (
                     <Cliente />
                 ) : (

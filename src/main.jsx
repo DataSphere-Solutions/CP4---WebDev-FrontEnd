@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Error from './routes/Error.jsx'
 import Home from './routes/Home.jsx'
@@ -13,16 +13,16 @@ import GlobalStyle from './css/GlobalStyle.jsx'
 const router = createBrowserRouter([
   {
     //Elemento Pai
-      path:'/',element:<App/>,
-      errorElement:<Error/>,
+    path: '/', element: <App />,
+    errorElement: <Error />,
 
     //Elemento Filho
-      children:[
-        {path:'/',element:<Home/>},
-        {path:'/login',element:<Login/>},
-        {path:'/carros',element:<Carros/>},
-        {path:'/sobre',element:<Sobre/>},
-      ]
+    children: [
+      { path: '/', element: <Home /> },
+      { path: '/login', element: <Login /> },
+      { path: '/carros', element: <Carros /> },
+      { path: '/sobre', element: <Sobre /> },
+    ]
   }
 ])
 
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/*Chamando o componente GlobalStyle para estilizar */}
-    <GlobalStyle/>
+    <GlobalStyle />
     <RouterProvider router={router} />
   </StrictMode>,
 )
