@@ -5,7 +5,7 @@ import App from './App.jsx'
 import Error from './routes/Error.jsx'
 import Home from './routes/Home.jsx'
 import Login from './routes/Login.jsx'
-import Carros from './routes/Carros.jsx'
+import Carros from './routes/Produtos.jsx'
 import Sobre from './routes/Sobre.jsx'
 import GlobalStyle from './css/GlobalStyle.jsx'
 

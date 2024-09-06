@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const ProdutosStyle = styled.section `
-    
+export const RoupasStyle =styled.section`
 
+    .login{
+        background-color: #ff0000;
+    }
 `
