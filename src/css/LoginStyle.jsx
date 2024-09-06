@@ -1,13 +1,6 @@
 import styled from "styled-components";
 
 export const LoginStyle = styled.section`
-min-height: 90vh;
-background-image: linear-gradient(to top, #0075b9, #19abff);
-.section{
-    display: flex;
-    justify-content: center;
-    padding: 70px;
-}
 #userhtml{
     padding: 2PX 3PX 2PX 3PX;
     border-radius: 10px;

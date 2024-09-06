@@ -1,7 +1,16 @@
 import styled from "styled-components";
 
 export const SobreStyle = styled.section`
-        @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+        
+
+
+        .bungee-regular {
+         font-family: "Bungee", sans-serif;
+         font-weight: 400;
+        font-style: normal;
+        }
+
+
 
         min-height: 90vh;
         background-image: linear-gradient(to top, #0075b9, #19abff);
