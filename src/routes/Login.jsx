@@ -29,15 +29,19 @@ const Login = () => {
                     <Cliente />
                 ) : (
                     <form onSubmit={handleLogin}>
-                        <p>
-                            Usuário:
-                            <input type="text" placeholder="Digite seu usuário" ref={usuario} id="userhtml" />
-                        </p>
-                        <p>
-                            Senha:
-                            <input type="password" placeholder="Digite sua senha" ref={senha} id="senhahtml" />
-                        </p>
-                        <button type="submit" id="entrar">Entrar</button>
+                        <section className="section">
+                            <p>
+                                <input type="text" placeholder="Digite seu usuário" ref={usuario} id="userhtml" />
+                            </p>
+                            <p>
+                                <input type="password" placeholder="Digite sua senha" ref={senha} id="senhahtml" />
+                            </p>
+                        </section>
+
+                        <div className="confirmacao">
+                            <button type="submit" id="entrar">Entrar</button>
+                        </div>
+
                     </form>
                 )}
             </LoginStyle>
