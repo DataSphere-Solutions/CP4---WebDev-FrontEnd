@@ -1,0 +1,34 @@
+import styled from "styled-components";
+
+export const SobreStyle = styled.section`
+        @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+        min-height: 90vh;
+        background-image: linear-gradient(to top, #0075b9, #19abff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+        .classe{
+            text-align:center;
+        }
+        .titulo{
+            font-family: "Bungee",sans-serif;
+            color: #ffffff;
+            text-align: center;
+            font-size: 60px;
+            margin-top: -230px;
+        }
+        .texto{
+            font-family: "Bungee",sans-serif;
+            font-size: 30px;
+            text-align: center;
+            padding-right: 300px;
+            padding-left: 300px;
+            margin-top: 30px;
+            
+        }
+        
+`;

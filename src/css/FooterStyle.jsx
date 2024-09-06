@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const FooterStyle =styled.section`
-
     h5{
         text-align: center;
         background-color: #034b6d;

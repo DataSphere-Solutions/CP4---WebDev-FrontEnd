@@ -1,12 +1,16 @@
-const Sobre=()=>{
-    return(
-        <section className="sobre">
 
-        <h3>CityCars</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia doloribus optio odio molestias repellat, totam labore itaque fugiat, alias voluptatem et quae quidem nemo consequuntur temporibus sunt fuga, commodi voluptates.</p>
-        <a href="" className="btn-saibaMais">Saiba mais...</a>
+import React from 'react';
+import { SobreStyle } from '../css/SobreStyle';
 
-        </section>
-    )
-}
-export default Sobre
+const Sobre = () => {
+    return (
+        <SobreStyle>
+            <section className='classe'>
+                <h3 className='titulo '>ZONA FITNESS</h3>
+                <p className='texto'>ZONA FITNESS é uma empresa nacional de esportes voltada para venda de roupas esportivas. Atuamos principalemente com camisetas de times, sendo eles nacionais, internacionais ou até mesmo seleções. </p>
+            </section>
+        </SobreStyle>
+    );
+};
+
+export default Sobre;

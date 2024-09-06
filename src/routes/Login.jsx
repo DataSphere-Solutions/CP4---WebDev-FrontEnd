@@ -1,7 +1,6 @@
+import { LoginStyle } from "../css/LoginStyle";
 import {useRef} from 'react'
 import Cliente from '../components/Cliente';
-
-import { LoginStyle } from "../css/LoginStyle";
 
 
 const Login =()=>{
@@ -32,14 +31,14 @@ const Login =()=>{
 
     return(
         <>
-            <section>
+            <section className='login'>
 
             {getUsuario && getSenha ? (
                 
                 <Cliente/>
             ):
                 <form onSubmit={handleLogin}>
-                    <p className='p'>
+                    <p>
                         Usuário:
                         <input type="text" placeholder="Digite seu usuário" ref={usuario} />
                     </p>
