@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom"
 
-const Cliente=()=>{
+const Cliente = () => {
 
     const navigate = useNavigate();
 
 
-    const handleLogout=()=>{
+    const handleLogout = () => {
         sessionStorage.removeItem("usuario");
         sessionStorage.removeItem("senha");
         alert("By By");

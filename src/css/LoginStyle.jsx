@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const LoginStyle =styled.section`
+export const LoginStyle = styled.section`
 
 #userhtml{
     padding: 2PX 3PX 2PX 3PX;
