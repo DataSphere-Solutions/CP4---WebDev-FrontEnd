@@ -1,15 +1,6 @@
 import styled from "styled-components";
 
-
-export const ProdutosStyle =styled.section`
-
-
-.bungee-regular {
-         font-family: "Bungee", sans-serif;
-         font-weight: 400;
-        font-style: normal;
-        }
-
+export const ProdutosStyle = styled.section`
   .produtos-esportivos {
     display: flex;
     justify-content: space-around;
@@ -41,13 +32,19 @@ export const ProdutosStyle =styled.section`
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
+    font-family: "Bungee", sans-serif; 
   }
 
   .produtos-esportivos p {
     font-size: 1rem;
     color: #666;
     line-height: 1.5;
+    font-family: "Bungee", sans-serif; 
   }
-`
-        
 
+  .bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+`;
