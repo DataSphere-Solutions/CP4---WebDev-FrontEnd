@@ -12,6 +12,7 @@ background-image: linear-gradient(to top, #0075b9, #19abff);
   padding-top:81px ;
 }
 #userhtml{
+    text-align: center;
     padding: 2PX 3PX 2PX 3PX;
     border-radius: 10px;
     background-color: rgba(255, 63, 89, 0);
@@ -34,6 +35,7 @@ background-image: linear-gradient(to top, #0075b9, #19abff);
 }
 
 #senhahtml{
+  text-align: center;
   padding: 2PX 3PX 2PX 3PX;
   border-radius: 10px;
   background-color: rgba(255, 63, 89, 0);
@@ -62,7 +64,7 @@ color: #ffffff;
 }
 
 #entrar{
-  padding: 5PX 5PX 5PX 5PX;
+  padding: 5PX 50PX 5PX 50PX;
     border-radius: 10px;
     background-color: rgba(255, 63, 89, 0);
     border: 10px solid #0072f5;

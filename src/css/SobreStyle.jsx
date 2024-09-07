@@ -35,6 +35,7 @@ export const SobreStyle = styled.section`
             padding-right: 300px;
             padding-left: 300px;
             margin-top: 30px;
+            color: #004f7c;
             
         }
         

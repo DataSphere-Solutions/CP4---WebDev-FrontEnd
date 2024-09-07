@@ -70,7 +70,7 @@ background-image: linear-gradient(to top, #0075b9, #19abff);
   }
   .desconto{
     font-size: small;
-    background-color: #ff00008f;
+    background-color: #ff0000cf;
     margin-top: 2px;
     color:white;
     padding: 4px;
