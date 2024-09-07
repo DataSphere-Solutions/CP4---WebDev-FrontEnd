@@ -37,7 +37,7 @@ export const ProdutosStyle =styled.section`
   }
 
   .produtos-esportivos p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #666;
     line-height: 1.5;
   }
