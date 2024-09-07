@@ -10,8 +10,6 @@ export const SobreStyle = styled.section`
         font-style: normal;
         }
 
-
-
         min-height: 90vh;
         background-image: linear-gradient(to top, #0075b9, #19abff);
         display: flex;

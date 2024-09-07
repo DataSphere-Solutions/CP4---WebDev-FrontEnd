@@ -3,6 +3,13 @@ import styled from "styled-components";
 
 export const ProdutosStyle =styled.section`
 
+
+.bungee-regular {
+         font-family: "Bungee", sans-serif;
+         font-weight: 400;
+        font-style: normal;
+        }
+
   .produtos-esportivos {
     display: flex;
     justify-content: space-around;

@@ -4,6 +4,7 @@ import { ProdutosStyle } from '../css/ProdutosStyle';
 const Produtos = () => {
   return (
     <ProdutosStyle>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet"></link>
       <section className="produtos-esportivos">
         <div>
           <img src="tenis.jpg" alt="Tênis esportivo" />
