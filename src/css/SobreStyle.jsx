@@ -26,7 +26,6 @@ export const SobreStyle = styled.section`
             color: #ffffff;
             text-align: center;
             font-size: 60px;
-            margin-top: -230px;
         }
         .texto{
             font-family: "Bungee",sans-serif;
@@ -36,6 +35,7 @@ export const SobreStyle = styled.section`
             padding-left: 300px;
             margin-top: 30px;
             color: #004f7c;
+            margin-bottom:30px;
             
         }
         
